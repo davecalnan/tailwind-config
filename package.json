@@ -2,7 +2,9 @@
   "name": "tailwind-config",
   "version": "0.1.0",
   "description": "Easily get values from your resolved tailwindcss config.",
-  "repository": "https://github.com/davecalnan/tailwind-config.git",
+  "repository": "github:davecalnan/tailwind-config",
+  "homepage": "https://github.com/davecalnan/tailwind-config#readme",
+  "bugs": "https://github.com/davecalnan/tailwind-config/issues",
   "main": "src/index.js",
   "dependencies": {
     "tailwindcss": "^1.0.0-beta.4"
