@@ -4,6 +4,7 @@ const defaultConfig = require('tailwindcss/stubs/defaultConfig.stub')
 
 const getUserConfig = userConfig => {
   if (typeof userConfig === 'object') return userConfig
+  if (typeof userConfig === 'undefined') return {}
   if (typeof userConfig === 'string') {
     try {
       return require(path.resolve(
@@ -14,6 +15,7 @@ const getUserConfig = userConfig => {
       throw new Error(`Could not find config at ${userConfig} relative to ${path.dirname(module.parent.filename)}. Please check the relative file path provided or else import your config and pass that.`)
     }
   }
+  throw new TypeError('Invalid input. Please provide the path to a Tailwind CSS config file or the config object itself.')
 }
 
 module.exports = {

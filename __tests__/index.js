@@ -10,10 +10,22 @@ it('can resolve when passed a config path', () => {
   expect(tailwind.config(pathToUserConfig)).toMatchSnapshot()
 })
 
+it('can resolve when passed nothing', () => {
+  expect(tailwind.config()).toMatchSnapshot()
+  expect(tailwind.config(null)).toMatchSnapshot()
+})
+
 it('will throw when passed an invalid config path', () => {
   expect(tailwind.config.bind(null, 'invalid/path/to/config'))
     .toThrow(
       /Could not find config at .* relative to .*\. Please check the relative file path provided or else import your config and pass that./
+    )
+})
+
+it('will throw when passed an invalid argument type', () => {
+  expect(tailwind.config.bind(null, 42))
+    .toThrow(
+      'Invalid input. Please provide the path to a Tailwind CSS config file or the config object itself.'
     )
 })
 
