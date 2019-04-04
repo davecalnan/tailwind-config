@@ -15,8 +15,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "parcel src/index.js",
-    "prepublish": "npm run test && npm run build"
+    "build": "parcel build src/index.js",
+    "prepare": "npm run test && npm run build"
   },
   "author": "Dave Calnan <d@ve.ie>",
   "license": "ISC"
