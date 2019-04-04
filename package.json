@@ -1,7 +1,7 @@
 {
   "name": "tailwind-config",
   "version": "0.1.0",
-  "description": "Easily get values from your resolved tailwind config.",
+  "description": "Easily get values from your resolved tailwindcss config.",
   "repository": "https://github.com/davecalnan/tailwind-config.git",
   "main": "src/index.js",
   "dependencies": {
