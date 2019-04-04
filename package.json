@@ -11,7 +11,8 @@
     "jest": "^24.7.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run test"
   },
   "author": "Dave Calnan <d@ve.ie>",
   "license": "ISC"
