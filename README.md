@@ -39,7 +39,7 @@ theme.colors.red[100] // '#fff5f5'
 /* use object descructuring */
 const { screens, spacing } = tailwind.theme('./relative/path/to/your/tailwind.config')
 screens.md // '768px'
-spacing.12 // '3rem'
+spacing['12'] // '3rem'
 ```
 Make sure to replace `./relative/path/to/your/tailwind.config` with the actual [relative path](https://www.lifewire.com/absolute-and-relative-paths-3466467) to your tailwind config. Alternatively you can [pass an object](#pass-the-path-to-your-config-file-or-the-config-object itself), or pass nothing to just use the [default config](https://github.com/tailwindcss/tailwindcss/blob/next/stubs/defaultConfig.stub.js).
 
