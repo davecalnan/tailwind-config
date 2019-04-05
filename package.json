@@ -7,11 +7,11 @@
   "bugs": "https://github.com/davecalnan/tailwind-config/issues",
   "main": "dist/index.js",
   "dependencies": {
-    "tailwindcss": "^1.0.0-beta.4"
   },
   "devDependencies": {
     "jest": "^24.7.1",
-    "parcel": "^1.12.3"
+    "parcel": "^1.12.3",
+    "tailwindcss": "^1.0.0-beta.4"
   },
   "scripts": {
     "test": "jest",
