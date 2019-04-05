@@ -1,6 +1,6 @@
 {
   "name": "tailwind-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easily get values from your resolved tailwindcss config.",
   "repository": "github:davecalnan/tailwind-config",
   "homepage": "https://github.com/davecalnan/tailwind-config#readme",
