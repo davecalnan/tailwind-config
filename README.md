@@ -78,7 +78,7 @@ const { separator } = require('tailwind-config')
 separator('./relative/path/to/your/tailwind.config') // ':'
 ```
 
-## Pass the path to your config file or the config object itself
+### Pass the path to your config file or the config object itself
 ```js
 const config = tailwind.config('./relative/path/to/your/tailwind.config')
 /* or */
