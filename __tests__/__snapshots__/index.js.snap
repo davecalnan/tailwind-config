@@ -6,7 +6,7 @@ exports[`can resolve a plugins array 1`] = `Array []`;
 
 exports[`can resolve a prefix string 1`] = `""`;
 
-exports[`can resolve a separator string 1`] = `Array []`;
+exports[`can resolve a separator string 1`] = `":"`;
 
 exports[`can resolve a theme object 1`] = `
 Object {

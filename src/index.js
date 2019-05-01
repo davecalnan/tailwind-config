@@ -24,7 +24,7 @@ module.exports = {
   important: userConfig => resolveConfig([getUserConfig(userConfig), defaultConfig]).important,
   plugins: userConfig => resolveConfig([getUserConfig(userConfig), defaultConfig]).plugins,
   prefix: userConfig => resolveConfig([getUserConfig(userConfig), defaultConfig]).prefix,
-  separator: userConfig => resolveConfig([getUserConfig(userConfig), defaultConfig]).plugins,
+  separator: userConfig => resolveConfig([getUserConfig(userConfig), defaultConfig]).separator,
   theme: userConfig => resolveConfig([getUserConfig(userConfig), defaultConfig]).theme,
   variants: userConfig => resolveConfig([getUserConfig(userConfig), defaultConfig]).variants
 }
